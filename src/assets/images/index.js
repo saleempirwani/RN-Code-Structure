@@ -1,7 +1,3 @@
-const Assets = {
-
-    // profile: require('./profile.png')
-
-}
-
-export default Assets
+export default {
+  // profile: require('./profile.png')
+};

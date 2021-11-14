@@ -1,11 +1,7 @@
-const Labels = {
+export default {
+  // Routes Name
+  Home: "Home",
 
-    // Routes Name
-    Home: 'Home',
-
-    // App Labels
-    login:' Login',
-
-}
-
-export default Labels
+  // App Labels
+  login: " Login",
+};
