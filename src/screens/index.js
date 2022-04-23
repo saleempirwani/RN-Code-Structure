@@ -1,5 +1,1 @@
-// import NameScreen from './'
-
-// export {
-//     NameScreen
-// }
+// export { default as ScreenName } from "./ScreenName";

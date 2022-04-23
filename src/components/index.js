@@ -1,5 +1,1 @@
-// import ComponentName from './'
-
-// export {
-//     ComponentName
-// }
+// export { default as ComponentName } from "./ComponentName";

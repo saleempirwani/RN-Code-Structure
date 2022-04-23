@@ -1,17 +1,11 @@
-import { StyleSheet, Dimensions, Platform } from "react-native";
-import Colors from "../colors";
-import fonts from "../fonts";
+import { Dimensions, StyleSheet } from "react-native";
 
-const { width, height } = Dimensions.get("window");
-const marginHorizontal = 20;
-
-const fontSp2Px = (size) =>
-  Platform.OS === "ios" ? Number(size) * 2 : Number(size) * 1.8;
+export const { width: WIDTH, height: HEIGHT } = Dimensions.get("window");
 
 export default StyleSheet.create({
   // GLOBAL STYLES...
   flex: (size) => ({ flex: Number(size) }),
-  fontSize: (size) => ({ fontSize: fontSp2Px(size) }),
+  fontSize: (size) => ({ fontSize: size }),
   color: (color) => ({ color: color }),
   textAlign: (z) => ({ textAlign: z }),
   backgroundColor: (color) => ({ backgroundColor: color }),
@@ -55,13 +49,6 @@ export default StyleSheet.create({
     bottom: 10,
     right: 10,
     left: 10,
-  },
-
-  // GLOBAL FONT FAMILY
-  fontOpenSansBoldPrimary8: {
-    fontFamily: fonts.openSansBold,
-    fontSize: fontSp2Px(8),
-    color: Colors.primary,
   },
 
   // GLOBAL CONTAINER
