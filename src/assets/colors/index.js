@@ -1,6 +1,4 @@
-export default{
-    white: '#fff',
-    black: '#000'
-}
-
-export default Colors
+export default {
+  white: "#fff",
+  black: "#000",
+};
